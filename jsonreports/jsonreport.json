@@ -1,0 +1,640 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\playwright.config.ts",
+    "rootDir": "C:/Users/avinash.hediggond/Desktop/SauceDemo_Project",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "line",
+        null
+      ],
+      [
+        "C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\node_modules\\allure-playwright\\dist\\cjs\\index.js",
+        {
+          "outputFolder": "allure-reports"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonreports/jsonreport.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "always"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/avinash.hediggond/Desktop/SauceDemo_Project/test-results",
+        "repeatEach": 1,
+        "retries": 3,
+        "metadata": {},
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/avinash.hediggond/Desktop/SauceDemo_Project",
+        "testIgnore": [],
+        "testMatch": [
+          "DemoProject.test.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.50.1",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests\\DemoProject.test.ts",
+      "file": "tests/DemoProject.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Action on ELements - Text Box",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 9578,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Name:Avinash YH\n"
+                    },
+                    {
+                      "text": "Email:avinash@gmail.com\n"
+                    },
+                    {
+                      "text": "Current Address :Indira Nagar \n"
+                    },
+                    {
+                      "text": "Permananet Address :Sanajay Nagar\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-02-04T10:36:10.220Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\test-results\\tests-DemoProject-Action-on-ELements---Text-Box\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\test-results\\tests-DemoProject-Action-on-ELements---Text-Box\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e314f20ceb84a1e83156-a5cb778e420d6c67b001",
+          "file": "tests/DemoProject.test.ts",
+          "line": 5,
+          "column": 5
+        },
+        {
+          "title": "Action on ELements - Check Box",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 27409,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-02-04T10:36:20.715Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\test-results\\tests-DemoProject-Action-on-ELements---Check-Box\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\test-results\\tests-DemoProject-Action-on-ELements---Check-Box\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e314f20ceb84a1e83156-63708aa3851fd67a6905",
+          "file": "tests/DemoProject.test.ts",
+          "line": 33,
+          "column": 5
+        },
+        {
+          "title": "Action on ELements - Radio Button",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "failed",
+                  "duration": 19026,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n    at C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\tests\\DemoProject.test.ts:57:23",
+                    "matcherResult": {
+                      "expected": true,
+                      "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
+                      "name": "toBe",
+                      "pass": false
+                    },
+                    "location": {
+                      "file": "C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\tests\\DemoProject.test.ts",
+                      "column": 23,
+                      "line": 57
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 55 |\u001b[39m    \u001b[36mconst\u001b[39m isChecked\u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m yes\u001b[33m.\u001b[39mclick()\n \u001b[90m 56 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 57 |\u001b[39m     expect(isChecked)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 58 |\u001b[39m    \u001b[90m// console.log(await page.locator(\"//span[text()='Yes']\"))\u001b[39m\n \u001b[90m 59 |\u001b[39m\n \u001b[90m 60 |\u001b[39m     \u001b[36mconst\u001b[39m impressive\u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\"lable[for='impressiveRadio']\"\u001b[39m)\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\tests\\DemoProject.test.ts",
+                        "column": 23,
+                        "line": 57
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n\n\u001b[0m \u001b[90m 55 |\u001b[39m    \u001b[36mconst\u001b[39m isChecked\u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m yes\u001b[33m.\u001b[39mclick()\n \u001b[90m 56 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 57 |\u001b[39m     expect(isChecked)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 58 |\u001b[39m    \u001b[90m// console.log(await page.locator(\"//span[text()='Yes']\"))\u001b[39m\n \u001b[90m 59 |\u001b[39m\n \u001b[90m 60 |\u001b[39m     \u001b[36mconst\u001b[39m impressive\u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\"lable[for='impressiveRadio']\"\u001b[39m)\u001b[0m\n\u001b[2m    at C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\tests\\DemoProject.test.ts:57:23\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-02-04T10:36:48.136Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\test-results\\tests-DemoProject-Action-on-ELements---Radio-Button\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\test-results\\tests-DemoProject-Action-on-ELements---Radio-Button\\video.webm"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\tests\\DemoProject.test.ts",
+                    "column": 23,
+                    "line": 57
+                  }
+                },
+                {
+                  "workerIndex": 1,
+                  "status": "failed",
+                  "duration": 10564,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n    at C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\tests\\DemoProject.test.ts:57:23",
+                    "matcherResult": {
+                      "expected": true,
+                      "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
+                      "name": "toBe",
+                      "pass": false
+                    },
+                    "location": {
+                      "file": "C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\tests\\DemoProject.test.ts",
+                      "column": 23,
+                      "line": 57
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 55 |\u001b[39m    \u001b[36mconst\u001b[39m isChecked\u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m yes\u001b[33m.\u001b[39mclick()\n \u001b[90m 56 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 57 |\u001b[39m     expect(isChecked)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 58 |\u001b[39m    \u001b[90m// console.log(await page.locator(\"//span[text()='Yes']\"))\u001b[39m\n \u001b[90m 59 |\u001b[39m\n \u001b[90m 60 |\u001b[39m     \u001b[36mconst\u001b[39m impressive\u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\"lable[for='impressiveRadio']\"\u001b[39m)\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\tests\\DemoProject.test.ts",
+                        "column": 23,
+                        "line": 57
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n\n\u001b[0m \u001b[90m 55 |\u001b[39m    \u001b[36mconst\u001b[39m isChecked\u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m yes\u001b[33m.\u001b[39mclick()\n \u001b[90m 56 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 57 |\u001b[39m     expect(isChecked)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 58 |\u001b[39m    \u001b[90m// console.log(await page.locator(\"//span[text()='Yes']\"))\u001b[39m\n \u001b[90m 59 |\u001b[39m\n \u001b[90m 60 |\u001b[39m     \u001b[36mconst\u001b[39m impressive\u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\"lable[for='impressiveRadio']\"\u001b[39m)\u001b[0m\n\u001b[2m    at C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\tests\\DemoProject.test.ts:57:23\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 1,
+                  "startTime": "2025-02-04T10:37:10.246Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\test-results\\tests-DemoProject-Action-on-ELements---Radio-Button-retry1\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\test-results\\tests-DemoProject-Action-on-ELements---Radio-Button-retry1\\video.webm"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\tests\\DemoProject.test.ts",
+                    "column": 23,
+                    "line": 57
+                  }
+                },
+                {
+                  "workerIndex": 2,
+                  "status": "failed",
+                  "duration": 9464,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n    at C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\tests\\DemoProject.test.ts:57:23",
+                    "matcherResult": {
+                      "expected": true,
+                      "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
+                      "name": "toBe",
+                      "pass": false
+                    },
+                    "location": {
+                      "file": "C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\tests\\DemoProject.test.ts",
+                      "column": 23,
+                      "line": 57
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 55 |\u001b[39m    \u001b[36mconst\u001b[39m isChecked\u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m yes\u001b[33m.\u001b[39mclick()\n \u001b[90m 56 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 57 |\u001b[39m     expect(isChecked)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 58 |\u001b[39m    \u001b[90m// console.log(await page.locator(\"//span[text()='Yes']\"))\u001b[39m\n \u001b[90m 59 |\u001b[39m\n \u001b[90m 60 |\u001b[39m     \u001b[36mconst\u001b[39m impressive\u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\"lable[for='impressiveRadio']\"\u001b[39m)\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\tests\\DemoProject.test.ts",
+                        "column": 23,
+                        "line": 57
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n\n\u001b[0m \u001b[90m 55 |\u001b[39m    \u001b[36mconst\u001b[39m isChecked\u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m yes\u001b[33m.\u001b[39mclick()\n \u001b[90m 56 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 57 |\u001b[39m     expect(isChecked)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 58 |\u001b[39m    \u001b[90m// console.log(await page.locator(\"//span[text()='Yes']\"))\u001b[39m\n \u001b[90m 59 |\u001b[39m\n \u001b[90m 60 |\u001b[39m     \u001b[36mconst\u001b[39m impressive\u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\"lable[for='impressiveRadio']\"\u001b[39m)\u001b[0m\n\u001b[2m    at C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\tests\\DemoProject.test.ts:57:23\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 2,
+                  "startTime": "2025-02-04T10:37:24.838Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\test-results\\tests-DemoProject-Action-on-ELements---Radio-Button-retry2\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\test-results\\tests-DemoProject-Action-on-ELements---Radio-Button-retry2\\video.webm"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\tests\\DemoProject.test.ts",
+                    "column": 23,
+                    "line": 57
+                  }
+                },
+                {
+                  "workerIndex": 3,
+                  "status": "failed",
+                  "duration": 8571,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n    at C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\tests\\DemoProject.test.ts:57:23",
+                    "matcherResult": {
+                      "expected": true,
+                      "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m",
+                      "name": "toBe",
+                      "pass": false
+                    },
+                    "location": {
+                      "file": "C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\tests\\DemoProject.test.ts",
+                      "column": 23,
+                      "line": 57
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 55 |\u001b[39m    \u001b[36mconst\u001b[39m isChecked\u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m yes\u001b[33m.\u001b[39mclick()\n \u001b[90m 56 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 57 |\u001b[39m     expect(isChecked)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 58 |\u001b[39m    \u001b[90m// console.log(await page.locator(\"//span[text()='Yes']\"))\u001b[39m\n \u001b[90m 59 |\u001b[39m\n \u001b[90m 60 |\u001b[39m     \u001b[36mconst\u001b[39m impressive\u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\"lable[for='impressiveRadio']\"\u001b[39m)\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\tests\\DemoProject.test.ts",
+                        "column": 23,
+                        "line": 57
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mundefined\u001b[39m\n\n\u001b[0m \u001b[90m 55 |\u001b[39m    \u001b[36mconst\u001b[39m isChecked\u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m yes\u001b[33m.\u001b[39mclick()\n \u001b[90m 56 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 57 |\u001b[39m     expect(isChecked)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 58 |\u001b[39m    \u001b[90m// console.log(await page.locator(\"//span[text()='Yes']\"))\u001b[39m\n \u001b[90m 59 |\u001b[39m\n \u001b[90m 60 |\u001b[39m     \u001b[36mconst\u001b[39m impressive\u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\"lable[for='impressiveRadio']\"\u001b[39m)\u001b[0m\n\u001b[2m    at C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\tests\\DemoProject.test.ts:57:23\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 3,
+                  "startTime": "2025-02-04T10:37:38.809Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\test-results\\tests-DemoProject-Action-on-ELements---Radio-Button-retry3\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\test-results\\tests-DemoProject-Action-on-ELements---Radio-Button-retry3\\video.webm"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\tests\\DemoProject.test.ts",
+                    "column": 23,
+                    "line": 57
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "e314f20ceb84a1e83156-c68f9157d3ba6e7f4b5f",
+          "file": "tests/DemoProject.test.ts",
+          "line": 48,
+          "column": 5
+        },
+        {
+          "title": "Web Tables",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "status": "passed",
+                  "duration": 9142,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-02-04T10:37:51.666Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\test-results\\tests-DemoProject-Web-Tables\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\test-results\\tests-DemoProject-Web-Tables\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e314f20ceb84a1e83156-1dc240a28ab486eba8f1",
+          "file": "tests/DemoProject.test.ts",
+          "line": 69,
+          "column": 5
+        },
+        {
+          "title": "Download and Upload file",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "status": "passed",
+                  "duration": 10180,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-02-04T10:38:01.626Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\test-results\\tests-DemoProject-Download-and-Upload-file\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\test-results\\tests-DemoProject-Download-and-Upload-file\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e314f20ceb84a1e83156-9c08f5d5d97b9ae345c1",
+          "file": "tests/DemoProject.test.ts",
+          "line": 90,
+          "column": 5
+        },
+        {
+          "title": "Fill the Form Practice",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "status": "timedOut",
+                  "duration": 32685,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\tests\\DemoProject.test.ts",
+                        "column": 16,
+                        "line": 126
+                      },
+                      "message": "Error: page.waitForLoadState: Test timeout of 30000ms exceeded.\n\n\u001b[0m \u001b[90m 124 |\u001b[39m\n \u001b[90m 125 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://demoqa.com/\"\u001b[39m)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 126 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForLoadState(\u001b[32m'networkidle'\u001b[39m)\n \u001b[90m     |\u001b[39m                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 127 |\u001b[39m\n \u001b[90m 128 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//h5[text() = 'Forms']\"\u001b[39m)\n \u001b[90m 129 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m\"//li[@id='item-0']/span[text()='Practice Form']\"\u001b[39m)\u001b[0m\n\u001b[2m    at C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\tests\\DemoProject.test.ts:126:16\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-02-04T10:38:11.821Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\test-results\\tests-DemoProject-Fill-the-Form-Practice\\test-failed-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\test-results\\tests-DemoProject-Fill-the-Form-Practice\\video.webm"
+                    }
+                  ]
+                },
+                {
+                  "workerIndex": 5,
+                  "status": "passed",
+                  "duration": 9525,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 1,
+                  "startTime": "2025-02-04T10:38:47.594Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\test-results\\tests-DemoProject-Fill-the-Form-Practice-retry1\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\test-results\\tests-DemoProject-Fill-the-Form-Practice-retry1\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "flaky"
+            }
+          ],
+          "id": "e314f20ceb84a1e83156-7a868138699edc8f8365",
+          "file": "tests/DemoProject.test.ts",
+          "line": 123,
+          "column": 5
+        },
+        {
+          "title": "ALerts,",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "status": "passed",
+                  "duration": 7772,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "You clicked a button\n"
+                    },
+                    {
+                      "text": "Do you confirm action?\n"
+                    },
+                    {
+                      "text": "Please enter your name\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-02-04T10:38:58.086Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\test-results\\tests-DemoProject-ALerts-\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\avinash.hediggond\\Desktop\\SauceDemo_Project\\test-results\\tests-DemoProject-ALerts-\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e314f20ceb84a1e83156-114e657fbea12264758f",
+          "file": "tests/DemoProject.test.ts",
+          "line": 175,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-02-04T10:36:06.964Z",
+    "duration": 179265.682,
+    "expected": 5,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 1
+  }
+}

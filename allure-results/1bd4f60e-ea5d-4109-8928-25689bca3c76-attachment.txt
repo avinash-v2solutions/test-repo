@@ -1,0 +1,7 @@
+{
+  name: 'morpheus',
+  job: 'leader',
+  id: '375',
+  createdAt: '2025-02-03T07:52:08.951Z'
+}
+Created User Id is : 375
