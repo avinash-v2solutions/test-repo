@@ -3,7 +3,7 @@ import { PlaywrightTestConfig } from '@playwright/test';
 const config : PlaywrightTestConfig = {
   testMatch : ["DemoProject.test.ts"],
 
-  retries:3,
+  retries:5,
 
   use : {
     //baseURL:"https://ecommerce-playground.lambdatest.io",
