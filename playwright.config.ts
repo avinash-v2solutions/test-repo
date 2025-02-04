@@ -7,7 +7,7 @@ const config : PlaywrightTestConfig = {
 
   use : {
     //baseURL:"https://ecommerce-playground.lambdatest.io",
-    headless : false,
+   headless : true,
     screenshot :"on",
     video:"on"
 
