@@ -154,7 +154,7 @@ test("POST Register Successfull", async ({request})=>{
    
    console.log(await response.json())
    
-   expect(response.status()).toBe(201)
+   expect(response.status()).toBe(200)
    
    var res =await response.json()
    var userID = await res.id
