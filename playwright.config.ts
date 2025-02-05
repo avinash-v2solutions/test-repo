@@ -1,14 +1,14 @@
 import { PlaywrightTestConfig } from '@playwright/test';
 
 const config : PlaywrightTestConfig = {
-  testMatch : ["RestAPI.test.ts"],
+  testMatch : ["SauceDemo.test.ts"],
 
   retries:6,
 
   use : {
     //baseURL:"https://ecommerce-playground.lambdatest.io",
     headless : false,
-    screenshot :'only-on-failure',
+    screenshot :'on',
     video:"on"
 
   },
