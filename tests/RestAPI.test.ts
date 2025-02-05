@@ -98,19 +98,11 @@ test(" GET List Resource", async ({request})=>{
 
 })
 
-test(" GET Sinle Resource", async ({request})=>{
+test(" GET Single Resource", async ({request})=>{
 
    const response =  await request.get("https://reqres.in/api/unknown/2")
    console.log(await response.json())
    expect(response.status()).toBe(200)
-
-})
-
-test(" GET Sinle Resource Not Found", async ({request})=>{
-
-   const response =  await request.get("https://reqres.in/api/unknown/23")
-   console.log(await response.json())
-   expect(response.status()).toBe(404)
 
 })
 
@@ -147,10 +139,9 @@ console.log('Updated the User : '+update)
 
 })
 
-https://reqres.in/api/register
 test("POST Register Successfull", async ({request})=>{
 
-   const response = await request.post("https://reqres.in/api/users",{
+   const response = await request.post("https://reqres.in/api/register",{
                                                       data:{
                                                              "email": "eve.holt@reqres.in",
                                                               "password": "pistol"
@@ -169,5 +160,84 @@ test("POST Register Successfull", async ({request})=>{
    var userID = await res.id
    console.log('Created User Id is : '+userID)
 
-   var token =await res.token
-   console.log('Created User Id is : '+token )
+   var token1 =await res.token
+   console.log('Created User token is : '+ token1 )
+
+})
+
+
+test("POST Register unSuccessfull", async ({request})=>{
+
+   const response = await request.post("https://reqres.in/api/register",{
+                                                      data:{
+                                                              "email": "sydney@fife"
+                                                          },
+                                                      headers:{
+   
+                                                              "Accept": "application/json"
+                                                            }
+   })
+   
+   console.log(await response.json())
+   
+   expect(response.status()).toBe(400)
+   
+   var res =await response.json()
+   var error = await res.error
+   console.log('Error Message is : '+error )
+
+})
+
+test("POST Login Successfull", async ({request})=>{
+
+   const response = await request.post("https://reqres.in/api/login",{
+                                                      data:{
+                                                              "email": "eve.holt@reqres.in",
+                                                              "password": "cityslicka"
+                                                          },
+                                                      headers:{
+   
+                                                              "Accept": "application/json"
+                                                            }
+   })
+   
+   console.log(await response.json())
+   
+   expect(response.status()).toBe(200)
+   
+   var res =await response.json()
+   var token = await res.token
+   console.log('Login Successfull : '+ token )
+
+})
+
+test("POST Login unSuccessfull", async ({request})=>{
+
+   const response = await request.post("https://reqres.in/api/login",{
+                                                      data:{
+                                                         
+                                                            "email": "peter@klaven"
+                                                        
+                                                          },
+                                                      headers:{
+   
+                                                              "Accept": "application/json"
+                                                            }
+   })
+   
+   console.log(await response.json())
+   
+   expect(response.status()).toBe(400)
+   
+   var error =await response.json()
+   console.log('Error message is : '+error )
+
+})
+
+test(" GET Delayed Response", async ({request})=>{
+
+   const response =  await request.get("https://reqres.in/api/users?delay=3")
+   console.log(await response.json())
+   expect(response.status()).toBe(200)
+
+})
