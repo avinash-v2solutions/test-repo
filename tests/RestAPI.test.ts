@@ -68,6 +68,8 @@ test("DELETE User", async({request})=>{
 
    expect(response.status()).toBe(204)
 
+   // Rest API Test 
+   // Using TypeScript and Playwright 
 
 
 })
