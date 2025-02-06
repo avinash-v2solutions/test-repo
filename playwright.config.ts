@@ -1,7 +1,7 @@
 import { PlaywrightTestConfig } from '@playwright/test';
 
 const config : PlaywrightTestConfig = {
-  testMatch : ["MockNetworkRequest.test.ts"],
+  testMatch : ["RestAPI.test.ts"],
 
   retries:6,
 
