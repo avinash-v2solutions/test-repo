@@ -1,7 +1,7 @@
 import { PlaywrightTestConfig } from '@playwright/test';
 
 const config : PlaywrightTestConfig = {
-  testMatch : ["DemoProject.test.ts"],
+  testMatch : ["Ecommerce.test.ts"],
 
   retries:6,
 
